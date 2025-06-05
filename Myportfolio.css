@@ -6,6 +6,13 @@
     outline: none;
     border: none;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
 .navbar {
     background: #000;
     height: 80px;
@@ -407,6 +414,14 @@ p {
 /* END OF CONTACT SECTION */
 
 @media screen and (max-width: 960px) {
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
    .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -415,6 +430,7 @@ p {
     width: 100%;
     max-width: 1300px;
     padding: 0;
+    background: #000;
    }
    
    .navbar__menu {
