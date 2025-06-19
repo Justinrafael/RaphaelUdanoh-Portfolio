@@ -455,7 +455,7 @@ hr {
     text-decoration: none;
     outline: none;
     border: none;
-    font-family: fantasy, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
 }
    .navbar__container {
     display: flex;
@@ -496,7 +496,6 @@ hr {
 
    #navbar__logo {
     padding-left: 25px;
-    font-family: fantasy, Geneva, Tahoma, sans-serif;
    }
    .navbar__toggle {
     position: fixed;
