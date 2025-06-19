@@ -61,3 +61,11 @@ menu.addEventListener('click', function() {
     menuLinks.classList.toggle('active');
 })
 
+/** FORM SECTION */
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    alert("Message sent! Thanks for reaching out!");
+
+    this.reset();
+});
