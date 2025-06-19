@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: fantasy, Geneva, Tahoma, sans-serif;
     outline: none;
     border: none;
 }
@@ -454,6 +455,7 @@ hr {
     text-decoration: none;
     outline: none;
     border: none;
+    font-family: fantasy, Geneva, Tahoma, sans-serif;
 }
    .navbar__container {
     display: flex;
