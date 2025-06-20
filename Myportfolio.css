@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=sofia');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -497,6 +498,7 @@ hr {
 
    #navbar__logo {
     padding-left: 25px;
+    font-family: sofia;
    }
    .navbar__toggle {
     position: fixed;
